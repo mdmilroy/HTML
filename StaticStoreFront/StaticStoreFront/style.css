@@ -1,0 +1,175 @@
+.master {
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    background-color: lightgrey;
+}
+
+.jumbotron {
+    height: auto;
+}
+
+.topper {
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.navbar {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.search {
+    position: relative;
+    width: 60%;
+    max-width: 60%;
+    margin: 1rem;
+    border: thin lightgray solid;
+    border-radius: 5px;
+}
+
+.searchbutton {
+    position: relative;
+    width: 20%;
+    float: right;
+    margin-top: 1rem;
+}
+
+.wrapper {
+    background-color: lightgrey;
+    height: auto;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    padding-bottom: 2rem;
+}
+
+.sidebar {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: darkgray thin solid;
+    border-radius: 0 5px 0 0;
+    background-color: darkgray;
+    display: inline-block;
+}
+
+.innersidebar {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: .5rem;
+}
+
+.ad {
+    margin-top: .5rem;
+    width: 100%;
+    height: 15%;
+}
+
+#ad {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    border: thick black solid;
+    border-radius: 1rem;
+    background-color: white;
+    height: fit-content;
+    overflow: auto;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: inline-block;
+}
+
+.fakeimg {
+    position: relative;
+    width: 80%;
+    max-width: 150px;
+    height: 80%;
+    max-height: 150px;
+    border: black thin;
+    margin: auto;
+    padding: 10px;
+}
+
+.text {
+    position: relative;
+    padding-top: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.clicktobuy {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 0;
+    border: thick solid transparent;
+    border-radius: 4px;
+    background-color: royalblue;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clicktobuy:hover {
+    background-color: black;
+}
+
+.list {
+    height: fit-content;
+}
+
+.nav-item {
+    width: fit-content;
+    font-size: auto;
+    align-content: center;
+}
+
+#navbtn {
+    margin: .5rem;
+    height: 70%;
+    color: white;
+    font-size: auto;
+}
+
+#navbtn:hover {
+    background-color: black;
+}
+
+.btn {
+    background-color: gray;
+    margin: .5rem;
+    border: gray;
+    box-shadow: 0 5px 5px 0 gray;
+}
+
+.logo {
+    background-color: white;
+    margin-left: .1rem;
+    margin-right: 1rem;
+    width:40px;
+    height: 40px;
+}
+
+
+.company {
+    color: white;
+    margin-left: auto;
+}
+
+footer {
+    position: relative;
+}
